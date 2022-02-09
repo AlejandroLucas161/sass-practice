@@ -1,0 +1,14 @@
+// Import sass flies
+@import './variables';
+@import './header';
+
+.contact {
+  // use mixin
+  // @include flexCenter(row);
+
+
+  // @extend: inherit styles
+  @extend header;
+  background-color: lightcoral;
+
+}
